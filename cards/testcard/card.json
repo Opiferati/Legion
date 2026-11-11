@@ -1,0 +1,11 @@
+{
+  "contract": "legion/2",
+  "name": "testcard",
+  "entry": "index.js",
+  "stage": "nightly",
+  "after": [],
+  "needs": ["day", "board", "log", "now"],
+  "authority": ["board:write"],
+  "timeout_min": 1,
+  "purpose": "Proves the Legion bus is live. Does nothing useful on purpose. Write-only: it posts a heartbeat and has no business reading the floor."
+}
